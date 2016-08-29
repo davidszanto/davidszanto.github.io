@@ -1,2 +1,0 @@
-# davidszanto.com
-my website
