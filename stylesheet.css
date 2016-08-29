@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding: 250px 0;
+	font-size: 45px;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	background-image: url("images/sunset.jpg");
+  	background-size: auto;
+  	background-position:center;
+}
+
+h1 {
+	margin:0;
+	font-family: Ariel, 'Ariel';
+	color: rgb(255,255,255);
+	text-align: center;
+}
+
+p{
+	margin: 10px;
+	font-family: Inconsolata, 'Inconsolata', serif;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	display:block;
+}
+
+.more a{
+	float: center;
+	cursor: pointer;
+	padding: 8px 18px;
+	font-family: Courier, 'Courier', serif;
+	font-size: 18px;
+	font-stretch:narrower;
+	color: white;
+	border: 1px groove #FFFFFF;
+	position: relative;
+}
+
+#footer {
+	text-align:center;
+  	font-size: 0.75rem;
+	position: absolute;
+    bottom: 0;
+}
