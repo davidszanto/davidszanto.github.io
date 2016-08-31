@@ -4,14 +4,12 @@ body {
 	owerflow: hidden;
 	font-size: 45px;
 	margin: 0 auto;
-	min-height: 100%;
 	text-align: center;
 	background: url("images/sunset.jpg") no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
  	background-size: cover;
-	align-items: center;
 }
 
 .intro{
@@ -34,10 +32,6 @@ p{
 	display:block;
 }
 
-.more{
-	margin: 100px;
-}
-
 .more a{
 	float: center;
 	cursor: pointer;
@@ -45,7 +39,6 @@ p{
 	font-family: Courier, 'Courier', serif;
 	font-size: 18px;
 	font-stretch:narrower;
-	color: white;
 	border: 1px groove #FFFFFF;
 	position: relative;
 }
@@ -86,13 +79,16 @@ header p {
 }
 
 body a{
+	cursor: pointer;
 	color: white;
 }
 
 body a:hover{
+	cursor: pointer;
 	color: white;
 }
 
 body a:visited{
+	cursor: pointer;
 	color:white;
 }
