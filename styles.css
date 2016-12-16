@@ -1,0 +1,14 @@
+body { 
+    background: #02b996 !important; 
+}
+h1 {
+    color: #fff3e0;
+    font-size: 48px;
+}
+p{
+    color: #fff3e0;
+}
+.thumbnail{
+    background: #fffaf2 !important;
+    height: 250px;
+}
