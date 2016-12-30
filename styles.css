@@ -16,6 +16,9 @@ h1 {
 p{
     color: #fffdf9;
 }
+th{
+    line-height: 28px;
+}
 .thumbnail{
     background: #fffdf9 !important;
 }
