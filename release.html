@@ -12,6 +12,7 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
+        <script src="Chart.js"></script>
         <!--NAVBAR, MENU-->
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
@@ -52,57 +53,120 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
 </nav>
-
-        <!--LISTÁK-->
-        <div class="container">
-            <span class="label label-warning">A szám a raktáron lévő raklapok számát jelenti!</span>
-            <table style="width: 50%">
-                <td>
-                    <th style="width: 85%">
-                        <ul class="list-group">
-                            <li class="list-group-item"><span class="badge">14</span>Káposzta</li>
-                            <li class="list-group-item"><span class="badge">9</span>Saláta</li>
-                            <li class="list-group-item"><span class="badge">4</span>Répa</li>
-                            <li class="list-group-item"><span class="badge">2</span>Cékla</li>
-                            <li class="list-group-item"><span class="badge">0</span>Uborka</li>
-                        </ul>
-                    </th>
-                </td>
-                <td>
-                    <th>
-                        <ul class="list-group">
-                            <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                                        </button>
-                                                        <button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                                                        </button></li>
-                            <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                                        </button><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                                                        </button></li>
-                            <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                                        </button><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                                                        </button></li>
-                            <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                                        </button><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                                                        </button></li>
-                            <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                                        </button><button type="button" class="btn btn-default btn-xs">
-                                                            <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                                                        </button></li>
-                        </ul>
-                    </th>
-                </td>
-            </table>
-        </div>
         
+        <!--CONTENT-->
+        <div class="container">
+            <div class="row">
+                <!--LISTÁK-->
+                <div class="col-md-6">
+                    <div class="centerBlock">
+                        <span class="label label-warning">A szám a raktáron lévő raklapok számát jelenti!</span>
+                        <table style="width: 200%">
+                            <td>
+                                <th>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><span class="badge">14</span>Káposzta</li>
+                                        <li class="list-group-item"><span class="badge">9</span>Saláta</li>
+                                        <li class="list-group-item"><span class="badge">4</span>Répa</li>
+                                        <li class="list-group-item"><span class="badge">2</span>Cékla</li>
+                                        <li class="list-group-item"><span class="badge">0</span>Uborka</li>
+                                    </ul>
+                                </th>
+                            </td>
+                            <td>
+                                <th>
+                                    <ul class="list-group" style="width: 40%">
+                                        <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                                                    </button><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                                                                    </button></li>
+                                        <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                                                    </button><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                                                                    </button></li>
+                                        <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                                                    </button><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                                                                    </button></li>
+                                        <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                                                    </button><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                                                                    </button></li>
+                                        <li class="list-group-item"><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                                                    </button><button type="button" class="btn btn-default btn-xs">
+                                                                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                                                                    </button></li>
+                                    </ul>
+                                </th>
+                            </td>
+                        </table>
+                    </div>
+                </div>
+
+                <!--GRAFIKON-->
+                <div class="col-md-6 centered">
+                    <div class="centerBlock">
+                        <canvas id="myDoughnutChart" width="300" height="280">
+                    <script>
+                        var ctx = document.getElementById("myDoughnutChart");
+
+                        var data = {
+                            labels: [
+                                "Káposzta",
+                                "Saláta",
+                                "Répa",
+                                "Cékla",
+                                "Uborka"
+                            ],
+                            datasets: [
+                                {
+                                    data: [14, 9, 4, 2, 0],
+                                    backgroundColor: [
+                                        "#FF6384",
+                                        "#36A2EB",
+                                        "#FFCE56",
+                                        "#93ff93",
+                                        "#e397ff"
+                                    ],
+                                    hoverBackgroundColor: [
+                                        "#FF6384",
+                                        "#36A2EB",
+                                        "#FFCE56",
+                                        "#93ff93",
+                                        "#e397ff"
+                                    ]
+                                }]
+                        };
+
+                        var myDoughnutChart = new Chart(ctx, {
+                            type: 'doughnut',
+                            data: data,
+                            options: {
+                                responsive: false,
+                                legend: {
+                                display: false
+                                },
+                                title: {
+                                    display: true,
+                                    text: 'Raktárkészlet',
+                                    fontColor: "#FFFFFF",
+                                    fontSize: 18
+                                }
+                            }
+                        });
+                    </script>
+                </canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--TODO: Credit to Chart.js-->
         <footer class="footer navbar-fixed-bottom">
             <div class="container text-center">
                 <p style="font-color: #ffffff">design by <b>David Szanto</b> | Bootstrap 3</p>
