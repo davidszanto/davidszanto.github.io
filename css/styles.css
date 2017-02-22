@@ -1,0 +1,209 @@
+html { 
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) ), url('../img/city.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+	margin:0 auto;
+    color:white;
+    background-color: rgba(0,0,0,0);
+}
+
+header{
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+   
+	width: 100%;
+	 height: 50px;
+}
+
+#htitle{
+    
+	display:none;
+}
+
+
+.hnav{
+	margin-top:10px;
+    float:right;
+	margin-right:20px;
+}
+
+
+.nava{
+    margin-left: 20px;
+    
+    font-weight: 700;
+    font-size: 18px;
+	font-family: "Roboto Mono",Roboto,sans-serif;
+	font-weight: 700;
+	text-decoration:none;
+	padding: 10px;
+		
+}
+.nava:hover{
+    color: white;
+	border-bottom: 2px solid rgba(255,255,255,100);
+}
+
+.smalltitle{
+	display: inline-block;
+	margin-left:180px;
+	margin-top:10px;
+    float: left;
+    font-family: "Oswald", sans-serif;   
+    
+    font-weight: 400;
+}
+
+.haeder2{
+	z-index: 200;
+
+	width: 100%;
+	height:130px;	
+    z-index: 9;
+}
+
+.shadow{
+	box-shadow: 0px 0px 10px 3px #000000;
+}
+
+.main{
+	margin:10px;
+}
+
+.bigtitle { 
+	margin-top:45px;
+	margin-left:40px;
+   font-size: 80px;
+   
+   font-family: "Oswald", sans-serif;  
+   font-weight: 400;
+   display: inline-block;
+   float: left;
+}
+
+.bigheadertext{
+	margin-top:50px;
+	margin-left:40px;
+   font-size: 30px;
+   
+   font-family: "Oswald", sans-serif;  
+   font-weight: 400;
+   display: inline-block;
+   float: left;
+}
+
+.paneldiv{
+	margin:0 auto;
+	
+	color:gray;
+	box-shadow: 0 0 30px grey;    
+    z-index: 5;
+}
+
+.studiologo{
+	position:fixed;
+	top:0px;
+	left:5px;
+	 z-index: 11;
+	 color:black;
+	 font-family: "Oswald", sans-serif;       
+    font-weight: 400;
+	font-size:30px;
+	margin-top:10px;
+}
+
+.studiologo:hover{
+	cursor:pointer;
+}
+.logo68{
+	font-size:30px;
+	color:red;
+}
+
+.branchitem{
+    display: inline-block;
+    float:left;
+    width:25%;
+    text-align:center;
+    font-size:2em;
+    height:100%;
+}
+.branchitem:hover{
+    cursor:pointer;	
+}
+.maintext{
+    font-family: 'Lobster', cursive;
+    position:fixed;
+    top:30%;
+    font-size:8em;
+    text-align:center;
+    left: 50%;
+    margin-left: -500px;
+    width:1000px;
+}
+.motto{
+    font-size:48;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.navbar.navbar-default {
+    width:100%;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+ul>li{
+    float: none;
+    display: inline-block;
+}
+
+.down_navigator{
+    position: relative;
+    top: 70%;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    width: 100%;
+}
+
+.glyphicon {
+    font-size: 35px;
+}
