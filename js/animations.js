@@ -7,10 +7,10 @@ function init() {
         firstTransitionDuration: 5000,
         transitionDuration: 2000,
         slides: [
-            { src: "/studio68/img/city.jpg" },
-            { src: "/studio68/img/flat.jpg" },
-            { src: "/studio68/img/snow.jpg" },
-            { src: "/studio68/img/sunset.jpg" }
+            { src: "img/city.jpg" },
+            { src: "img/flat.jpg" },
+            { src: "img/snow.jpg" },
+            { src: "img/sunset.jpg" }
         ]
     });
     
