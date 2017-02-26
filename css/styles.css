@@ -16,6 +16,8 @@ body{
     background-size: cover;
 }
 
+
+
 .title-block{
     width:100%;
     height:60%;
@@ -24,16 +26,27 @@ body{
 .maintext{
     font-family: 'Muli', sans-serif;
     font-weight: 300;
-    font-size:8vw;
+    font-size:12vh;
     text-align:center;
-    padding-top:10%;
+    padding-top:100px;
+    padding-left: 10%;
+    padding-right:10%;
+    width:100%;
+}
+
+.maintext2{
+	font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size:4vh;
+    text-align:center;
+    padding-top:100px;
     padding-left: 10%;
     padding-right:10%;
     width:100%;
 }
 
 .motto{
-    font-size:5vw;
+    font-size:5vh;
 }
 
 .down_navigator{
@@ -45,22 +58,7 @@ body{
 
 .glyphicon-chevron-down {
     color:white;
-    font-size: 5vw;
-}
-
-/*DEPARTMENTS SEGMENT*/
-.departments_segment{
-    height: 40%;
-    width: 100%;
-    padding: 10%;
-    color: #777777;
-    text-align: center;
-    
-    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 231, 231, 0.8) ) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    font-size: 5vh;
 }
 
 /*TIMELINE SEGMENT*/
@@ -135,4 +133,14 @@ header{
 	font-weight: 400;
 	display: inline-block;
 	float: left;
+}
+
+@media only screen and (max-width: 1076px){
+    .timeline_segment{ height:1500px; }
+}
+
+@media only screen and (max-width: 800px){
+    .timeline_segment{ height:2000px; }
+    
+    .maintext2{ font-size: 6.2vw; }
 }

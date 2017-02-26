@@ -1,0 +1,40 @@
+.teamtable{
+	width:80%;
+	
+}
+
+.teamtd{
+	width:25%;
+	text-align:center;
+}
+
+.teamimg{
+	
+	max-width:200px;
+}
+
+.teamname{
+	font-family: 'Muli', sans-serif;
+	
+	font-size: 30px;	
+}
+
+.teamtitle{
+	font-size: 20px;
+}
+
+.leftalign{
+	text-align:left;
+}
+
+.teamsegmenttitle{
+	text-align:center;
+	color:white;
+	margin-top:100px;
+	margin-bottom:100px;
+	font-size: 50px;	
+}
+
+@media only screen and (max-width: 991px){
+    .team_segment{ height: 1900px;}
+}

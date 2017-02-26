@@ -14,8 +14,6 @@ button.navbar-toggle collapsed button.navbar-toggle:hover{
     color: white;
 }
 
-.icon-bar{ color: #AA0000;}
-
 .navbar-default .navbar-nav>li>a{
     display: block;
     color: white;
@@ -115,4 +113,21 @@ span.glyphicon.glyphicon-one-fine-dot:before {
 span.glyphicon.glyphicon-one-fine-dot.active{
      transform: scale(1.5);
     -webkit-transform: scale(1.5);
+}
+
+/*SIDEBAR WITH IMGs*/
+.navcircleimg{
+	z-index:9999;
+	width:40px;
+	padding-top:20px;
+    padding-bottom: 20px;
+}
+.navcircleimg:hover{
+	width:60px;
+}
+
+.side_nav2 {
+	z-index: 9999;
+	right: 20px;
+    width: 70px;
 }

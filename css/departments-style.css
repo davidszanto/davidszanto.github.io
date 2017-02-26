@@ -1,0 +1,89 @@
+.departments_segment{
+    height: 40%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    float: none;
+    background-color: black;
+}
+
+.departments_segment>.container{
+    width:100%;
+    padding:0;
+}
+
+.department{
+    height: 100%;
+}
+
+#eco{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#eco:hover{
+    background-color: #a1d332;
+}
+
+#food{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#food:hover{
+    background-color: #3d2704;
+}
+
+#gifts{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#gifts:hover{
+    background-color: #e00901;
+}
+
+#fan{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#fan:hover{
+    background-color: #dcad63;
+}
+
+#printing{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#printing:hover{
+    background-color: #8d8c8a;
+}
+
+#custom{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#custom:hover{
+    background-color: #62151c;
+}
+
+@media only screen and (max-width: 1076px){
+    .departments_segment{height: 1200px;}
+    
+    #eco{width: 100%;height:200px;}
+    #food{width: 100%;height:200px;}
+    #gifts{width: 100%;height:200px;}
+    #fan{width: 100%;height:200px;}
+    #printing{width: 100%;height:200px;}
+    #custom{width: 100%;height:200px;}
+    
+    #eco:hover{width: 100%;height:200px;}
+    #food:hover{width: 100%;height:200px;}
+    #gifts:hover{width: 100%;height:200px;}
+    #fan:hover{width: 100%;height:200px;}
+    #printing:hover{width: 100%;height:200px;}
+    #custom:hover{width: 100%;height:200px;}
+}
