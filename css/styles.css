@@ -11,7 +11,7 @@
 }
 
 .fto-r1 {
-  font-size: 6.5em; 
+  font-size: 6.5em;
   font-weight: 300;
   line-height: 1.2em;
 }
@@ -1152,7 +1152,7 @@ html, body {
 .form-style-8 input[type="url"],
 .form-style-8 input[type="password"],
 .form-style-8 textarea,
-.form-style-8 select 
+.form-style-8 select
 {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1172,7 +1172,7 @@ html, body {
     resize:none;
     overflow: hidden;
 }
-.form-style-8 input[type="button"], 
+.form-style-8 input[type="button"],
 .form-style-8 input[type="submit"]{
     -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
     -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
@@ -1188,8 +1188,33 @@ html, body {
     text-decoration: none;
     text-transform: uppercase;
 }
-.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="button"]:hover,
 .form-style-8 input[type="submit"]:hover {
     background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
     background-color:#34CACA;
 }
+
+
+  .emoji-banner-logo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    margin-top: -35px;
+    margin-left: -30px;
+  }
+  .article-preview .emoji-banner-logo {
+    margin-left: 0;
+  }
+  @media all and (max-width: 900px) {
+    .emoji-banner-logo {
+      width: 80px;
+      height: 80px;
+      padding: 15px;
+      margin-left: 0;
+    }
+
+    .article-preview .emoji-banner-logo {
+      margin-top: -25px;
+    }
+  }
