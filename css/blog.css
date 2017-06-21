@@ -687,14 +687,14 @@ p {
 
 .blog-categories-list {
     text-align: center;
-    background-color: #f9f9fb
+    background-color: #FF6F50
 }
 
 .blog-categories-list-item {
     display: inline-block;
     font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
     padding: 5px;
-    color: #999
+    color: white
 }
 
 .blog-categories-list-item > a {
@@ -705,14 +705,14 @@ p {
 }
 
 .blog-categories-list-item > a:hover {
-    background-color: #fff;
-    color: #333
+    background-color: #FF6F50;
+    color: #white
 }
 
 .blog-category-active-all-posts .blog-category-all-posts, .blog-category-active-design .blog-category-design,
 .blog-category-active-tutorials .blog-category-tutorials, .blog-category-active-css .blog-category-css,
 .blog-category-active-animation .blog-category-animation, .blog-category-active-resources .blog-category-resources {
-    color: #333
+    color: #white
 }
 
 @media all and (max-width: 600px) {
