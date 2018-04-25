@@ -27,7 +27,8 @@ a {
 }
 
 a:hover {
-    color: #b84336
+    color: #b84336;
+    text-decoration: none;
 }
 
 .clear {
