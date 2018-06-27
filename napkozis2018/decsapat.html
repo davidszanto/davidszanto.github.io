@@ -35,14 +35,14 @@
                     <div class="nav-header-line js-nav-header-line"></div>
                 </div>
 
-                <ul class="nav-categories">
+                <ol class="nav-categories">
                     <li class="nav-category js-nav-animate">
                         <a href="../index.html" class="nav-link">Napközishét</a>
                     </li>
                     <li class="nav-category js-nav-animate">
                         <a href="#" class="nav-link">Bejelentkezés</a>
                     </li>
-                </ul>
+                </ol>
 
                 <div class="nav-sublinks js-nav-animate">
                     <div class="js-nav-animate">
@@ -76,11 +76,11 @@
 
             <div class="container-fluid group-container">
                 <div class="row">
-                    <table width=100% cellspacing=0>
+                    <table class="table" width=99% cellspacing=0>
                         <tr valign=top>
                             <td>
                                 <b style='background-color:yellow;'>Citromsárga</b>
-                                <ol start=1>
+                                <ol>
                                     <li>
                                         <font color='red'>Füzi Frida (3)</font>
                                     </li>
@@ -147,7 +147,7 @@
                                 </ol>45 + 36 = 81 / 8 új+</td>
                             <td>
                                 <b style='color:orange;'>Narancssárga</b>
-                                <ol start=1>
+                                <ol>
                                     <li>
                                         <font color='red'>Mérész Csenge (3)</font>
                                     </li>
@@ -217,7 +217,7 @@
                                 </ol>41 + 38 = 79 / 11 új+</td>
                             <td>
                                 <b style='color:red;'>Piros</b>
-                                <ol start=1>
+                                <ol>
                                     <li>
                                         <font color='red'>+Saufert Szófia (Szofi) (1)</font>
                                     </li>
@@ -287,14 +287,9 @@
                                 </ol>40 + 38 = 78 / 13 új+</td>
                         </tr>
                         <tr valign=top>
-                            <td colspan=3>
-                                <hr>
-                            </td>
-                        </tr>
-                        <tr valign=top>
                             <td>
                                 <b style='color:purple;'>Lila</b>
-                                <ol start=1>
+                                <ol>
                                     <li>
                                         <font color='red'>+Szemkeő Zsófi (1)</font>
                                     </li>
@@ -361,7 +356,7 @@
                                 </ol>42 + 36 = 78 / 10 új+</td>
                             <td>
                                 <b style='color:blue;'>Kék</b>
-                                <ol start=1>
+                                <ol>
                                     <li>
                                         <font color='red'>Árvay Réka (2)</font>
                                     </li>
@@ -381,7 +376,7 @@
                                         <font color='red'>Matuz Lili (3)</font>
                                     </li>
                                     <li>
-                                        <font style='font-weight:bold;' color='red'>Vona Julcsa (Júlia) (4)</font>
+                                        <font style='font-weight:bold;' color='red'>Vona Jolcsa (Júlia) (4)</font>
                                     </li>
                                     <li>
                                         <font color='red'>Bagdi Panna (2)</font>
@@ -431,7 +426,7 @@
                                 </ol>43 + 34 = 77 / 9 új+</td>
                             <td>
                                 <b style='color:green;'>Zöld</b>
-                                <ol start=1>
+                                <ol>
                                     <li>
                                         <font color='red'>Szalai Szonja (3)</font>
                                     </li>
@@ -439,7 +434,7 @@
                                         <font style='font-weight:bold;' color='red'>Dalhammar Emma (4)</font>
                                     </li>
                                     <li>
-                                        <font color='red'>+Balogi Júlia Hanga Julcs (1)</font>
+                                        <font color='red'>+Balogi Júlia Hanga Jolcs (1)</font>
                                     </li>
                                     <li>
                                         <font color='red'>+Nagy Flóra Bíborka - BIBI (1)</font>
@@ -508,6 +503,15 @@
 </body>
 
 <style>
+    ol {
+        padding: 0;
+        margin: 0;
+    }   
+
+    ol.b{
+        list-style-position: inside;
+    }
+
     .group-container{
         width: 70%;
     }
